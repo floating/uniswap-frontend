@@ -2,7 +2,7 @@
   "name": "uniswap",
   "description": "Uniswap Exchange Protocol",
   "version": "0.1.0",
-  "homepage": "https://uniswap.exchange",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@reach/dialog": "^0.2.8",
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL='./' react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint:base": "yarn eslint './src/**/*.{js,jsx}'",
